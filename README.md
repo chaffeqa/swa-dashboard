@@ -65,3 +65,7 @@ export TWILIO_AUTH_TOKEN=""
 export TWILIO_PHONE_FROM=""
 export TWILIO_PHONE_TO=""
 ```
+
+### Troubleshooting
+Southwest only allows querying for flights 6 months in advance.  If the results show `$Infinity` then you may be running into this issue.
+You can check your inputs by entering the same information into https://www.southwest.com/
